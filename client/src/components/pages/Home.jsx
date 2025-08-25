@@ -10,7 +10,10 @@ const Home = () => {
     <>
         <Navbar />
         <Header />
+        <div className=' mt-24 md:mt-52'>
+
         <BlogList />
+        </div>
         <Newsletter />
         <Footer />
     </>
